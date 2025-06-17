@@ -19,12 +19,12 @@ def is_enabled(value, default):
       
 # Bot Information
 API_ID = int(environ.get("API_ID", "21518327"))
-API_HASH = environ.get("API_HASH", "e72f588b3e4763f01eecfc3c4aa7e8ac")
-BOT_TOKEN = environ.get("BOT_TOKEN", "")
+API_HASH = environ.get("API_HASH", "ddbeca31c74acc3598c68111647b7a72")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7929797506:AAG1RQxL0g7rH2yHtoh0Ra35xQShiwGROiM")
 
 PICS = (environ.get('PICS', 'https://envs.sh/X79.png')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5741918628 6696306143').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "@Kurumi_filestorebot") # without @
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '6623098670').split()]
+BOT_USERNAME = environ.get("BOT_USERNAME", "@Nexxuspvt_bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -35,8 +35,8 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "mongodb+srv://vinayjaat698:jaat@jaat.olaya.mongodb.net/?retryWrites=true&w=majority&appName=jaat")
-DB_NAME = environ.get("DB_NAME", "jaat")
+DB_URI = environ.get("DB_URI", "mongodb+srv://jainutech84:<3qBq1XDod6E7iJGn>@cluster0.rhkhejb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = environ.get("DB_NAME", "Cluster0")
 
 # Auto Delete Information
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
@@ -46,7 +46,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "10")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "600")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1001839965169"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002270774398"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://faint-nikolia-developerp-e6ec264e.koyeb.app/")
+URL = environ.get("URL", "https://fu-rin-hgn.onrender.com")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
